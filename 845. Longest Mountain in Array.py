@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def longestMountain(self, arr: List[int]) -> int:
         if len(arr)<3:
