@@ -9,6 +9,7 @@ class Solution {
                 ans = l * w;
             } else if (mx == t) {
                 ans = Math.max(ans, l * w);
+                
             }
         }
         return ans;
